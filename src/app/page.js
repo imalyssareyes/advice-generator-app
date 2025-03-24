@@ -31,7 +31,7 @@ export default function Home() {
       <main className="max-w-md flex flex-col items-center rounded-md bg-[color:var(--dark-grayish-blue)] m-auto relative">
         <div className="rounded-md flex flex-col text-center p-10">
           <p className="uppercase text-[color:var(--neon-green)] font-extrabold text-xs tracking-widest">Advice <span># {dataId}</span></p>
-          <h1 className="py-8 text-2xl text-[color:var(--light-cyan)] font-bold">"{dataAdvice}"</h1>
+          <h1 className="py-8 text-2xl text-[color:var(--light-cyan)] font-bold">&quot;{dataAdvice}&quot;</h1>
           <Image
             src="/pattern-divider-desktop.svg"
             alt="divider-desktop"
