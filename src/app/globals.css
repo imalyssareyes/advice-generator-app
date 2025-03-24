@@ -3,13 +3,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --light-cyan: hsl(193, 38%, 86%); /* Advice */
+  --neon-green: hsl(150, 100%, 66%); /* Advice ID */
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%); /* Wrapper BG */
+  --dark-blue: hsl(218, 23%, 16%); /* background */
+  --font-manrope: var(--font-manrope);
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--dark-blue);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +24,7 @@
 }
 
 body {
-  background: var(--background);
+  background: var(--dark-blue);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-manrope), sans-serif;
 }
