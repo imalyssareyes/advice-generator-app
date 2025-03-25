@@ -14,9 +14,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -54,8 +51,10 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 Desktop
 ![](./public/desktop-screenshot.png)
 
+
 Active State
 ![](./public/active-state.png)
+
 
 Mobile
 ![](./public/mobile-screenshot.png)
@@ -86,8 +85,6 @@ Mobile
 <p className="mb-8 h-5 bg-gray-400 rounded my-1 w-full animate-pulse"></p>
 ```
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 I would like to explore https://swr.vercel.app/docs/getting-started on future Next.js projects for data fetching.
@@ -95,8 +92,6 @@ I would like to explore https://swr.vercel.app/docs/getting-started on future Ne
 ### Useful resources
 
 - [Skeleton Generator](https://www.skeletongenerator.com/) - This tool helped me on how to create a skeleton loading in Tailwind CSS
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
