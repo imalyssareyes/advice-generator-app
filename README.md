@@ -1,3 +1,34 @@
+# Frontend Mentor - Advice generator app solution
+
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
+- See skeleton loading while generating a new piece of advice 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -18,19 +49,56 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Screenshot
 
-## Learn More
+Desktop
+![](./public/desktop-screenshot.png)
 
-To learn more about Next.js, take a look at the following resources:
+Active State
+![](./public/active-state.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Mobile
+![](./public/mobile-screenshot.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+- Solution URL: [GIT](https://github.com/imalyssareyes/advice-generator-app)
+- Live Site URL: [Vercel](https://advice-generator-app-imalyssareyes-projects.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My process
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+- [Vercel](https://vercel.com/) - For deployment
+
+### What I learned
+
+- How to use a framework like Next.js for building a web app
+- Exploring different kind of data fetching in Next.js
+- How to use Tailwind CSS for styling
+- Adding a simple loader using Tailwind CSS once the app load and when clicking the dice for better user experience (not in the requirements)
+- How to deploy a web app on Vercel and configure auto-deploy using webhooks in Git and Vercel
+
+```html Tailwind classes for loading effect 
+<p className="mb-8 h-5 bg-gray-400 rounded my-1 w-full animate-pulse"></p>
+```
+
+**Note: Delete this note and the content within this section and replace with your own learnings.**
+
+### Continued development
+
+I would like to explore https://swr.vercel.app/docs/getting-started on future Next.js projects for data fetching.
+
+### Useful resources
+
+- [Skeleton Generator](https://www.skeletongenerator.com/) - This tool helped me on how to create a skeleton loading in Tailwind CSS
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+## Author
+
+- Website - [Alyssa Reyes](https://www.alyssareyes.dev)
+- Frontend Mentor - [@imalyssareyes](https://www.frontendmentor.io/profile/imalyssareyes)
